@@ -7,5 +7,8 @@ public class Main {
         ArrayList numbers=new ArrayList();
         numbers.addAll(Arrays.asList(23,234,565,46,543456,54345,65434,5654345));
         System.out.println(numbers);
+        numbers.clear();
+        System.out.println(numbers);
+
     }
 }

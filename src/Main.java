@@ -40,8 +40,6 @@ class Student {
         this.course=course;
         this.avgGrade=avgGrade;
     }
-
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -53,7 +51,6 @@ class Student {
                 Double.compare(avgGrade, student.avgGrade) == 0 &&
                 Objects.equals(name, student.name);
     }
-
 
     @Override
     public String toString(){
